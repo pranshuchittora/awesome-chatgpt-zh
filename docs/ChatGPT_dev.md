@@ -151,6 +151,7 @@
 |[Haystack](https://github.com/deepset-ai/haystack)|![GitHub Repo stars](https://badgen.net/github/stars/deepset-ai/haystack)|deepset 出品的开源 Python 框架，通过模块化管线构建生产级 LLM 应用、RAG 与智能体|
 |[Semantic Kernel](https://github.com/microsoft/semantic-kernel)|![GitHub Repo stars](https://badgen.net/github/stars/microsoft/semantic-kernel)|微软开源 SDK，在 Python/.NET/Java 中快速集成 LLM 能力，构建智能体系统|
 |[OpenFugu](https://github.com/trotsky1997/OpenFugu)|![GitHub Repo stars](https://badgen.net/github/stars/trotsky1997/OpenFugu)|Sakana Fugu「一个模型统御全部」LLM 编排器的开源复现，覆盖读取→运行→训练→服务全链路（Apache-2.0）|
+|[Heym](https://github.com/heymrun/heym)|![GitHub Repo stars](https://badgen.net/github/stars/heymrun/heym)|源码可用的自托管智能体运行时，支持持久化工作流、人工审批、MCP 工具、执行追踪与评测（MIT + Commons Clause）|
 
 ### 一键部署资源
 
