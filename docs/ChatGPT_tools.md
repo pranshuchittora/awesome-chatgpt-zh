@@ -52,6 +52,7 @@
 
 | 名称 | 链接 | 简介 |
 |------|------|------|
+| AI Chat Folders | [链接](https://chromewebstore.google.com/detail/ai-chat-folders/heojnnoccgjlcllhgiijhncnmjccbihe) | Chrome 扩展：为 AI 对话提供本地文件夹、置顶、搜索与 Markdown/TXT/PDF 导出，数据仅存本机，无需账号 |
 | ArtiGram | [链接](https://artigram.cafeboon.com) | 免费的 AI 作品分享社区：把 ChatGPT 或 Claude 生成的 HTML、React、SVG、Markdown 作品发布为可直接运行的页面，支持分区、投票和评论，也可通过远程 MCP 在对话里直接发布和搜索 |
 | NotebookLM | [链接](https://notebooklm.google.com) | Google 的"基于来源"AI 研究笔记本，回答严格基于上传资料、不编造引用，可一键生成播客式音频概览 |
 | GPTs / GPT Store | [链接](https://chatgpt.com/gpts) | OpenAI 官方应用商店，无需写代码即可创建和分享定制版 ChatGPT，覆盖海量场景 |
