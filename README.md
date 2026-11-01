@@ -8,6 +8,8 @@
 
 [为方便国内访问, GitLab 镜像同步更新~](https://gitlab.com/awesomeai/awesome-chatgpt-zh)
 
+🌐 **[在线浏览网站版](https://yzfly.github.io/awesome-chatgpt-zh/)**：专题导航、全文搜索、Star 排序，并每日自动收录 [GitHub AI 热门项目](docs/Trending.md)。
+
 
 ChatGPT 中文指南项目旨在帮助中文用户了解和使用 ChatGPT 及前沿 AI 技术。我们收集了各种免费和付费的 ChatGPT 资源、高效使用中文与大模型交流的方法、应用开发的相关资源，以及基于大模型能力的生产力工具。项目持续跟进 AI 前沿：从 GPT-5、Claude 4、DeepSeek-V4、Gemini 3 等最新大模型，到 Claude Skills、MCP（模型上下文协议）、AI Agent 智能体开发等当代核心主题，您都能在这里找到丰富的工具、应用与示例。
 
@@ -24,10 +26,14 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用 ChatGPT 及前
   - [DeepSeek 生态指南](#deepseek-生态指南)
   - [Claude Skills 指南](#claude-skills-指南)
   - [MCP 模型上下文协议指南](#mcp-模型上下文协议指南)
+  - [GitHub AI 热门（每日自动更新）](#github-ai-热门每日自动更新)
+  - [Claude Code \& Codex 生态](#claude-code--codex-生态)
+  - [API 代理与模型路由](#api-代理与模型路由)
   - [Coding Agents 编程智能体](#coding-agents-编程智能体)
   - [Agent-First 为智能体而构建](#agent-first-为智能体而构建)
   - [浏览器与计算机自动化](#浏览器与计算机自动化)
   - [LLM 开发 RAG 指南](#llm-开发-rag-指南)
+  - [AI 生图指南](#ai-生图指南)
   - [Sora 指南](#sora-指南)
   - [LLMs: 大模型](#llms-大模型)
   - [AGI：通用人工智能之路](#agi通用人工智能之路)
@@ -67,6 +73,18 @@ Claude Skills（Agent Skills）让 AI 智能体按需加载专业能力，是构
 
 MCP（Model Context Protocol，模型上下文协议）是让 AI 无缝连接外部工具, 数据与系统的通用接口。本节精选了官方资源、主流客户端与各类知名 MCP Servers；完整中文资源大全（400+ Servers）见作者维护的 [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH)。
 
+## [GitHub AI 热门（每日自动更新）](docs/Trending.md)
+
+由 GitHub Actions 每天抓取 GitHub Trending（日榜 / 周榜，多语言）与近 30 天新晋高星仓库，按关键词筛选出 AI 相关项目并自动分类（编程智能体、MCP / Skills、API 网关、图像视频、语音等），同步到 [网站](https://yzfly.github.io/awesome-chatgpt-zh/#/trending) 与 [docs/Trending.md](docs/Trending.md)。
+
+## [Claude Code & Codex 生态](docs/Claude_Code_Codex.md)
+
+Claude Code 与 Codex 的官方入口与周边工具：CC Switch 配置切换、ccusage 用量统计、Happy / CloudCLI 移动端、claude-squad 多会话，Superpowers、Spec Kit、BMAD 等工作流框架，以及 2026 年下半年的热门技能（claude-mem、graphify、impeccable、taste-skill 等）。
+
+## [API 代理与模型路由](docs/API_Proxy.md)
+
+自部署 AI 网关（New API、LiteLLM、One API、GPT-Load）、订阅转 API 中转（CLIProxyAPI、Sub2API、CRS）、让编码 Agent 换模型（CC Switch、claude-code-router）与托管聚合平台，附合规提醒。
+
 ## [Coding Agents 编程智能体](docs/Coding_Agents.md)
 
 以 Claude Code、OpenAI Codex 为代表的编程智能体能自主读写代码库、运行命令与提交 PR。本节汇总主流终端/IDE 编码 Agent、自主软件工程 Agent、评测基准与学习资源。
@@ -80,6 +98,10 @@ MCP（Model Context Protocol，模型上下文协议）是让 AI 无缝连接外
 让 Agent 像人一样操作浏览器与电脑。本节收录 Browser Use / Computer Use 框架、为 agent 打造的浏览器基础设施（Steel、Browserbase 等）、浏览器自动化 MCP（Chrome DevTools MCP、Playwright MCP）、反检测浏览器、桌面操作 Agent（UI-TARS、Agent S 等）与评测基准。
 
 ## [LLM 开发 RAG 指南](docs/LLM_RAG.md)
+## [AI 生图指南](docs/Image_Generation.md)
+
+GPT Image 2、Nano Banana、Seedream、Midjourney、FLUX.2 等闭源模型，Qwen-Image、Z-Image、HunyuanImage 等开源模型，ComfyUI 等本地工具，以及 Nano Banana / GPT Image 提示词合集。
+
 ## [Sora 指南](docs/Sora.md)
 ## [LLMs: 大模型](docs/LLMs.md)
 ## [AGI：通用人工智能之路](docs/AGI.md)
