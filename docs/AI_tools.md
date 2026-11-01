@@ -75,6 +75,7 @@
 - [稿定 AI](https://www.gaoding.art) — 国产一站式 AI 设计平台，覆盖文生图、文案与商品图。
 - [GenOffice](https://github.com/genspark-ai/genoffice) — Genspark 开源的全功能 AI Office 套件（Word / Excel / PPT，macOS / Windows / Linux，Apache-2.0）。
 - [OpenKnowledge](https://github.com/inkeep/open-knowledge) — Inkeep 开源的 AI 原生 Markdown IDE / LLM wiki：所见即所得编辑、图谱、与 Claude / Codex / OpenCode 并排协作，自带 MCP 与 Skills。
+- [AdVariq](https://advariq.com) — 专为出海独立创作者与营销团队打造的 AI 广告图与宣传物料生成平台，支持复刻爆款广告结构与局部智能微调。
 
 ### AI 语音/音乐/数字人
 
