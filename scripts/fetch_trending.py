@@ -28,7 +28,7 @@ EXCLUDE_FILE = ROOT / "data" / "trending_exclude.txt"  # 手动排除的仓库�
 # 越狱、破解、成人内容等不适合收录的项目
 EXCLUDE_RE = re.compile(r"jailbreak|破甲|越狱|\bnsfw\b|crack(ed)?\b|keygen|免费白嫖", re.I)
 
-UA = "awesome-chatgpt-zh-trending-bot (+https://github.com/yzfly/awesome-chatgpt-zh)"
+UA = "awesome-chatgpt-zh-trending-bot (+https://github.com/EmbraceAGI/awesome-chatgpt-zh)"
 TODAY = dt.date.today().isoformat()
 KEEP_DAYS = 45          # 超过该天数未再上榜的条目移出列表
 MAX_ITEMS = 300

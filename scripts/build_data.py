@@ -21,7 +21,7 @@ DOCS = ROOT / "docs"
 OUT_DIR = ROOT / "site" / "data"
 META_CACHE = ROOT / "data" / "repo_meta.json"
 TRENDING = ROOT / "data" / "trending.json"
-REPO_URL = "https://github.com/yzfly/awesome-chatgpt-zh/blob/main/docs/"
+REPO_URL = "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/main/docs/"
 
 # 专题顺序与展示信息：(文件, slug, 标题, 一句话说明, 分组)
 TOPICS = [
