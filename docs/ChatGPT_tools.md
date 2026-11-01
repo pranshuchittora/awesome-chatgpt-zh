@@ -71,6 +71,7 @@
 | DisconfirmAI | [链接](https://disconfirmai.com/zh) | 面向投资研究的 AI 阅读与研究工具，在形成判断前先找可能推翻自己观点的反面证据。提供每日公开信源阅读和财报数据研究，也可以按自己设定的条件监控变化 |
 | Pulse | [链接](https://pulsecorp.co) | AI 主持的市场调研平台，可大规模开展客户访谈。 |
 | 回声（echo agent） | [链接](https://echoagent.dev/zh/) | 跨 Mac、Windows 和手机的语音 AI Agent（Windows 版测试中）：任何应用里按快捷键说一句，本机识别中英文，能直接回答、截当前窗口看图回答，或把编程任务交给本机的 Claude Code、Codex 后台跑，手机 App 可远程派活；闭源免费，登录后每天可免费用内置模型，也可填自己的 API Key |
+| Creatos | [链接](https://creatos.io) | macOS / Windows 桌面应用：同一个问题同时发给 Claude、GPT 和 Gemini，几个回答并排放在画布上，旁边放着你的 PDF 和笔记，方便对照原文挑答案；可接自己的 API Key 或本地 Ollama 模型。闭源，付费（$69 一次性买断），新下载有 7 天免费试用 |
 
 ### ChatGPT 学习英语
 
