@@ -1,1 +1,5 @@
 temp/
+
+# 构建产物（由 scripts/build_data.py 生成）
+site/data/
+__pycache__/

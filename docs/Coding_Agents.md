@@ -4,6 +4,8 @@
 
 > 相关：用 DeepSeek-V4 驱动 Claude Code / Codex / OpenCode 的配置见 [DeepSeek 生态指南](DeepSeek.md#在编程智能体中使用-deepseek)，通用智能体见 [AGI](AGI.md)，Agent 开发框架见 [应用开发指南](ChatGPT_dev.md)，工具连接协议见 [MCP 指南](MCP.md)。
 
+> Claude Code / Codex 的周边工具（CC Switch、用量统计、多会话、移动端、工作流框架）见 [Claude Code & Codex 生态](Claude_Code_Codex.md)。
+
 ## 命令行 / 终端编码 Agent
 
 终端原生的编程智能体，可直接在你的代码仓库里规划、改码、执行与验证，是目前最受重视的形态。

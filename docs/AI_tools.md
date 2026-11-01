@@ -25,6 +25,8 @@
 - [AiMovieFinder](https://www.aimoviefinder.com) — 免费、无需注册的 AI 找电影工具，可根据截图、场景、台词、剧情、演员、歌曲、海报或视频片段识别电影。
 ### AI 绘画/图像
 
+> 更完整的生图模型、开源工具与提示词合集见 [AI 生图指南](Image_Generation.md)。
+
 - [Midjourney](https://www.midjourney.com) — 艺术表现力顶尖的 AI 绘画工具，画面质感与审美行业标杆。
 - [DALL·E 3](https://openai.com/dall-e-3) — OpenAI 图像模型，集成于 ChatGPT，擅长理解复杂指令。
 - [Stable Diffusion](https://stability.ai) — Stability AI 的开源图像生成模型，可本地部署、生态丰富。

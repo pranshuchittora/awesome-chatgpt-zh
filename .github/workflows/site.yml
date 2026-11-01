@@ -1,0 +1,61 @@
+name: 网站构建与 AI 热门抓取
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/**", "site/**", "scripts/**", ".github/workflows/site.yml"]
+  schedule:
+    - cron: "17 1 * * *"   # 每天北京时间 09:17
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取 GitHub AI 热门
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/fetch_trending.py || echo "::warning::抓取失败，沿用旧数据"
+
+      - name: 生成网站数据
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_data.py
+
+      - name: 提交热门数据
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/trending.json data/repo_meta.json docs/Trending.md
+          git diff --cached --quiet || git commit -m "chore: 每日更新 GitHub AI 热门 $(date -u +%F)"
+          git push || echo "::warning::推送失败（可能有新提交），下次运行会重试"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
