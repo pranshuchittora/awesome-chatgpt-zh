@@ -1,5 +1,12 @@
 # 🤖 ChatGPT 中文指南 🤖
 
+<p align="center">
+  <a href="https://embraceagi.github.io/awesome-chatgpt-zh/"><img src="https://img.shields.io/badge/在线网站-embraceagi.github.io/awesome--chatgpt--zh-2453e0?style=for-the-badge" alt="在线网站"></a>
+</p>
+
+> 🌐 **网站版：<https://embraceagi.github.io/awesome-chatgpt-zh/>** —— 专题导航、全文搜索、Star 排序，每日自动收录 [GitHub AI 热门项目](https://embraceagi.github.io/awesome-chatgpt-zh/#/trending)。
+
+[![Website](https://img.shields.io/badge/Website-在线浏览-2453e0)](https://embraceagi.github.io/awesome-chatgpt-zh/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 [![Code License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/main/LICENSE)
 [![slack badge](https://img.shields.io/badge/Telegrem-join-blueviolet?logo=telegrem&amp)](https://t.me/AwesomeChatGPT)
@@ -7,8 +14,6 @@
 [GitHub 持续更新，欢迎关注，欢迎 star ~](https://github.com/yzfly/awesome-chatgpt-zh)
 
 [为方便国内访问, GitLab 镜像同步更新~](https://gitlab.com/awesomeai/awesome-chatgpt-zh)
-
-🌐 **[在线浏览网站版](https://embraceagi.github.io/awesome-chatgpt-zh/)**：专题导航、全文搜索、Star 排序，并每日自动收录 [GitHub AI 热门项目](docs/Trending.md)。
 
 
 ChatGPT 中文指南项目旨在帮助中文用户了解和使用 ChatGPT 及前沿 AI 技术。我们收集了各种免费和付费的 ChatGPT 资源、高效使用中文与大模型交流的方法、应用开发的相关资源，以及基于大模型能力的生产力工具。项目持续跟进 AI 前沿：从 GPT-5、Claude 4、DeepSeek-V4、Gemini 3 等最新大模型，到 Claude Skills、MCP（模型上下文协议）、AI Agent 智能体开发等当代核心主题，您都能在这里找到丰富的工具、应用与示例。
