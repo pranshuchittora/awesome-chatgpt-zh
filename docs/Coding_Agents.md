@@ -91,7 +91,7 @@
 | Plandex | [GitHub](https://github.com/plandex-ai/plandex) | 面向大型项目的开源终端 AI 编码 Agent，支持超大上下文与累积 diff 沙箱审查 |
 | Devika | [GitHub](https://github.com/stitionai/devika) | 早期开源的"Agentic 软件工程师"实现，曾作为 Devin 的开源替代 |
 | open-code-review | [GitHub](https://github.com/alibaba/open-code-review) | 阿里开源、经大规模实战检验的代码评审工具，采用"确定性流水线 + LLM Agent"混合架构，给出精确到行的评审意见，内置 NPE、线程安全、XSS、SQL 注入等规则集，兼容 OpenAI 与 Anthropic |
-| Orbi | [GitHub](https://github.com/orbi-build/orbi) ・[官网](https://orbi.build/zh/?ref=dir-awesome-chatgpt-zh) | 开源（AGPL-3.0）的 GitHub 交付工具：给 Issue 打上 ai-ready 标签后，编程 Agent 在隔离工作区实现需求、运行测试并开 PR，另一个 AI 会话评审通过后合并；可自托管，也有托管版 Orbi Cloud |
+| Orbi | [GitHub](https://github.com/orbi-build/orbi) ・[官网](https://orbi.build/zh/) | 开源（AGPL-3.0）的 GitHub 交付工具：给 Issue 打上 ai-ready 标签后，编程 Agent 在隔离工作区实现需求、运行测试并开 PR，另一个 AI 会话评审通过后合并；可自托管，也有托管版 Orbi Cloud |
 
 ## 编码 Agent 评测基准
 
@@ -127,3 +127,4 @@
 | ai-guide（鱼皮的 Vibe Coding 零基础教程） | [GitHub](https://github.com/liyupi/ai-guide) | 面向零基础的中文 Vibe Coding 教程：AI IDE / 命令行 Agent / IDE 插件的工具选型、对话工程与上下文管理、几十个可跟做的项目实战，以及部署上线与变现；另设模型动态板块用同一套真实项目横评主流模型的编程能力。简中 / 繁中 / 英三语，免费无付费墙 |
 | ChatGPT Workflows | [GitHub](https://github.com/RongNianXin/ChatGPT-Workflows) | 面向 Codex Desktop 项目协作的中文开源工作流资料，涵盖自然语言任务入口、执行与验证、跨任务交接和授权边界；附 Windows 本地会话分析工具 |
 | Orca AI Incident Archive | [GitHub](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) | 开源的 AI Agent 安全事件数据库（CC BY 4.0）：数百条记录，涵盖 Replit Agent 删除生产数据库、Amazon Q 扩展被投毒、Clinejection、GitSpawn（7 款编码 Agent 的 `.git/config` 远程代码执行）等编码 Agent 事故；每条附来源链接与攻击链图，并标注是否有真实受害者，区分「真出事」与「研究演示」；提供 JSON/CSV 导出与全部记录的中文译文 |
+| oh-my-hermes（OMH） | [GitHub](https://github.com/rlaope/oh-my-hermes) | Hermes Agent 的工作流插件与专家技能集（MIT）：提供调研、规划、代码审查、调试等可复用工作流，支持经审阅的本地项目记忆，可按任务类别配置模型与推理强度；需配合 Hermes Agent 使用，有中文 README |
