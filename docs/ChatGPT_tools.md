@@ -70,6 +70,7 @@
 | GPT Skin | [链接](https://gptskin.app/) | 第三方 macOS Codex 主题包生成器：在浏览器本地选择图片、预览并导出安装包，无需账号；ChatGPT 与 Claude 页面主要提供视觉原型，安装兼容性需分别确认 |
 | DisconfirmAI | [链接](https://disconfirmai.com/zh) | 面向投资研究的 AI 阅读与研究工具，在形成判断前先找可能推翻自己观点的反面证据。提供每日公开信源阅读和财报数据研究，也可以按自己设定的条件监控变化 |
 | Pulse | [链接](https://pulsecorp.co) | AI 主持的市场调研平台，可大规模开展客户访谈。 |
+| 回声（echo agent） | [链接](https://echoagent.dev/zh/) | 跨 Mac、Windows 和手机的语音 AI Agent（Windows 版测试中）：任何应用里按快捷键说一句，本机识别中英文，能直接回答、截当前窗口看图回答，或把编程任务交给本机的 Claude Code、Codex 后台跑，手机 App 可远程派活；闭源免费，登录后每天可免费用内置模型，也可填自己的 API Key |
 
 ### ChatGPT 学习英语
 
